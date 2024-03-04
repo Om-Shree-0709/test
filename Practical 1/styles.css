@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+#pic {
+  width: 100px;
+  float: right;
+}
+#container {
+  padding: 20px;
+}
+
+.hero2 {
+  display: flex;
+  align-items: center;
+}
+.basic {
+  width: 1900px;
+  border: 10px solid coral;
+  padding: 50px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.basic h1 {
+  font-size: 50px;
+}
+
+.basic:hover {
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+
+.basic-data {
+  width: 1900px;
+  height: 500px;
+  border: 10px solid coral;
+  padding: 50px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.basic-data:hover {
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+
+.basic-data table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+
+.edu-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.basic-data table,
+th,
+td {
+  border: 2px solid #000;
+}
+
+.basic-data th,
+td {
+  font-size: 30px;
+  padding: 12px;
+  text-align: center;
+}
+
+.edu-details {
+  width: 1900px;
+  height: 700px;
+  border: 10px solid coral;
+  padding: 50px;
+  margin: 10px;
+}
+
+.edu-details:hover {
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+
+.extra {
+  width: 950px;
+  height: 200px;
+  border: 10px solid coral;
+  padding: 50px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.extra:hover {
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+.social {
+  width: 950px;
+  height: 200px;
+  font-size: 50px;
+  border: 10px solid coral;
+  padding: 50px;
+  margin: 10px;
+}
+
+.social:hover {
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+.social a {
+  font-size: 50px;
+}
